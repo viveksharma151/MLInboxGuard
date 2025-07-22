@@ -3,8 +3,17 @@ A machine learning-based web application that classifies SMS messages as Spam or
 
  
 🔍 Overview
+This project is a machine learning-based SMS classification system built with Python, Scikit-learn, and Streamlit. It aims to distinguish between spam and non-spam (ham) messages using natural language processing (NLP) techniques.
 
-This project is built using Python, Scikit-learn, and Streamlit. It processes raw SMS text messages, transforms them using **TF-IDF vectorization**, and classifies them using a **Multinomial Naive Bayes** model.
+During development, multiple classification algorithms were tested and compared, including:
+
+◉ Multinomial Naive Bayes (Final Model) – Achieved highest accuracy and speed for text classification
+◉ Logistic Regression – Performed well but slightly lower recall on spam messages
+◉ Support Vector Machine (SVM) – High precision, but computationally heavier
+◉ Random Forest – Good accuracy but slower and prone to overfitting on small text data
+
+The models were evaluated based on accuracy, precision, recall, and F1-score, with Multinomial Naive Bayes delivering the best balance of performance and simplicity for text classification. The selected model uses TF-IDF vectorization and is deployed via Streamlit for real-time prediction.
+
 
 🚀 Features
 
