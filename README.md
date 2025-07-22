@@ -7,10 +7,10 @@ This project is a machine learning-based SMS classification system built with Py
 
 During development, multiple classification algorithms were tested and compared, including:
 
-◉ Multinomial Naive Bayes (Final Model) – Achieved highest accuracy and speed for text classification
-◉ Logistic Regression – Performed well but slightly lower recall on spam messages
-◉ Support Vector Machine (SVM) – High precision, but computationally heavier
-◉ Random Forest – Good accuracy but slower and prone to overfitting on small text data
+◉ Multinomial Naive Bayes (Final Model) 
+◉ Logistic Regression 
+◉ Support Vector Machine (SVM) 
+◉ Random Forest 
 
 The models were evaluated based on accuracy, precision, recall, and F1-score, with Multinomial Naive Bayes delivering the best balance of performance and simplicity for text classification. The selected model uses TF-IDF vectorization and is deployed via Streamlit for real-time prediction.
 
